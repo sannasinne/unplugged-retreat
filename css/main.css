@@ -97,6 +97,14 @@ textarea {
     flex-flow: row wrap;
   }
 
+  header {
+    padding: 15px 0;
+  }
+
+  .content-wrapper {
+    width: 90%;
+  }
+
   /* Header styles */
 
   header .content-wrapper {
@@ -104,6 +112,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
+  }
+
+  .header-divider {
+    width: 100%;
   }
 
   header nav {
@@ -111,20 +124,32 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
   }
 
   header nav ul {
     display: flex;
     justify-content: space-around;
-    
+    width: 45%;
   }
 
   /* Footer styles */
+
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+    width: 55%;
+    padding: 45px 0;
+  }
 
   footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  footer p {
+    margin: 0;
   }
   
   footer .social p {
@@ -141,17 +166,27 @@ textarea {
     flex-flow: row wrap;
   }
 
+  .hero-area h1 {
+    padding: 50px 0 330px;
+  }
+
   aside {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 25px 0;
   }
 
   .features {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding: 50px 0;
+  }
+
+  .features article {
+    width: 55%;
   }
 
   .features .featured-item {
@@ -159,12 +194,22 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 25px 0;
+  }
+
+  .features p {
+    margin: 0;
   }
 
   .reviews {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding: 50px 0;
+  }
+
+  .reviews h3 {
+    width: 50%;
   }
 
  /* ==========================================================================
