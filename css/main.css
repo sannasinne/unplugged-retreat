@@ -666,6 +666,13 @@ textarea {
     width: 45%;
   }
 
+  .map-container {
+    position: relative;
+    padding-bottom: 45%;
+    height: 0;
+    overflow: hidden;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -782,6 +789,13 @@ textarea {
   .contact-section .content-wrapper h2 {
     font-size: 3em;
     width: 95%;
+  }
+
+  .map-container {
+    position: relative;
+    padding-bottom: 38%;
+    height: 0;
+    overflow: hidden;
   }
 
   .contact-content h4 {
